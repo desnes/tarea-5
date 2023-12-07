@@ -32,7 +32,7 @@ Materia: Construcción y evolución de software
 ```
 - Se evidencia el acceso al cliente en el localhost después de ingresar al credenciales configuradas.
 
-![mongo-express ejecución](images\mongo-express-ejecucion.png)
+![mongo-express ejecución](images/mongo-express-ejecucion.png)
 
 ### Crear contenedor de postgres con la imagen: postgres:11.21-alpine3.17 y crear un cliente dpage/pgadmin4. Analizar qué variables de entorno son necesarias.
 
@@ -59,11 +59,11 @@ Materia: Construcción y evolución de software
 
 - Se evidencia el acceso al cliente en el localhost.
 
-![pgadmin ejecución](images\pgadmin-ejecucion.png)
+![pgadmin ejecución](images/pgadmin-ejecucion.png)
 
 - Se muestra como conectarse a PostgreSQL desde pgAdmin en el localhost.
 
-![pgadmin ejecución](images\pgadmin-conexion-postgresDb.png)
+![pgadmin ejecución](images/pgadmin-conexion-postgresDb.png)
 
 
 
