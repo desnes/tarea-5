@@ -9,7 +9,7 @@ Materia: Construcción y evolución de software
     docker network create mongo-network  
 ```
 
-- Previamente, se crean los archivos denominados "var-mongo.txt" y "var-mong0-express" que contienen las variables de entorno para mongoDB y el cliente de mongo respectivamente.   
+- Previamente, se crean los archivos denominados "[var-mongo.txt](var-mongo.txt)" y "[var-mongo-express.txt](var-mongo-express.txt)" que contienen las variables de entorno para mongoDB y el cliente de mongo respectivamente.   
     1.  Las variables de entorno necesarias para la creación del contenedor de **mongo** son:
         - *MONGO_INITDB_ROOT_USERNAME* y *MONGO_INITDB_ROOT_PASSWORD*: estas variables usadas en conjunto crean un nuevo usuario y coniguran una contraseña.
     2. Las variables de entorno necesarias para **mongo-express** son:
@@ -41,7 +41,7 @@ Materia: Construcción y evolución de software
 ```bash
     docker network create postgres-network
 ```
-- Previamente, se crean los archivos denominados "var-postgres.txt" y "var-pgadmin" que contienen las variables de entorno para postgres y el cliente de pgadmin respectivamente.   
+- Previamente, se crean los archivos denominados "[var-postgres.txt](var-postgres.txt)" y "[var-pgadmin.txt](var-pgadmin.txt)" que contienen las variables de entorno para postgres y el cliente de pgadmin respectivamente.   
 
     1.  Las variables de entorno necesarias para la creación del contenedor de **postgres** son *POSTGRES_PASSWORD*, *POSTGRES_USER* y *POSTGRES_DB* se utilizan para establecer la contraseña, el nombre de usuario y la base de datos predeterminada de PostgreSQL.
     2. Las variables de entorno necesarias para **pgadmin** son *PGADMIN_DEFAULT_EMAIL* y *PGADMIN_DEFAULT_PASSWORD* se utilizan para configurar el correo electrónico y la contraseña predeterminados de pgAdmin. Estos serán los credenciales que utilizarás para iniciar sesión en la interfaz web de pgAdmin.
