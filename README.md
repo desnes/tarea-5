@@ -1,6 +1,6 @@
 # tarea-5
 
-El archivo markdown que contiene la resolución de la tarea es [tarea 5](index.md)
+El archivo markdown que contiene la resolución de la tarea es [tarea 5](tarea-5.md)
 
 - Crear contenedor de mongo sin que exponga sus puertos usar la imagen: mongo:3.6.23 y crear un cliente de mongo: mongo-express
 
